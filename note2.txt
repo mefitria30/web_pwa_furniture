@@ -1,0 +1,68 @@
+M3FITRIA30 (master) web_pwa_furniture
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        note.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+M3FITRIA30 (master) web_pwa_furniture
+$ git remote add origin https://github.com/mefitria30/web_pwa_furniture.git
+M3FITRIA30 (master) web_pwa_furniture
+$ git status
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        note.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+gM3FITRIA30 (master) web_pwa_furniture
+$ git add .
+M3FITRIA30 (master +) web_pwa_furniture
+$ git commit -m "initialize project"
+[master c42ef3c] initialize project
+ 1 file changed, 109 insertions(+)
+ create mode 100644 note.txt
+M3FITRIA30 (master) web_pwa_furniture
+$ git push
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin master
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+M3FITRIA30 (master) web_pwa_furniture
+$ git branch -M main
+M3FITRIA30 (main) web_pwa_furniture
+$ git status
+On branch main
+nothing to commit, working tree clean
+M3FITRIA30 (main) web_pwa_furniture
+$ git log
+commit c42ef3c57a40c9111ffed966aa6dccc07c0f39c0 (HEAD -> main)
+Author: Fitria Melliyanni <fitria.melliyanni@dataon.com>
+Date:   Tue Apr 8 22:51:16 2025 +0700
+
+    initialize project
+
+commit d305faedfe1372f015ab1e4d1580430106a0f595
+Author: Fitria Melliyanni <fitria.melliyanni@dataon.com>
+Date:   Tue Apr 8 22:44:52 2025 +0700
+
+    Initialize project using Create React App
+M3FITRIA30 (main) web_pwa_furniture
+$ git push -u origin main
+Enumerating objects: 25, done.
+Counting objects: 100% (25/25), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (25/25), done.
+Writing objects: 100% (25/25), 176.99 KiB | 3.93 MiB/s, done.
+Total 25 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/mefitria30/web_pwa_furniture.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+M3FITRIA30 (main) web_pwa_furniture
+$
