@@ -1,0 +1,109 @@
+M3FITRIA30 htdocs
+$ npx create-react-app web_pwa_furniture --skip-install
+
+Creating a new React app in C:\xampp\htdocs\web_pwa_furniture.
+
+Installing packages. This might take a couple of minutes.
+Installing react, react-dom, and react-scripts with cra-template...
+
+
+added 1324 packages in 1m
+
+268 packages are looking for funding
+  run `npm fund` for details
+
+Initialized a git repository.
+
+Installing template dependencies using npm...
+
+added 18 packages, and changed 1 package in 12s
+
+268 packages are looking for funding
+  run `npm fund` for details
+Removing template package using npm...
+
+npm notice Beginning October 4, 2021, all connections to the npm registry - including for package installation - must use TLS 1.2 or higher. You are currently using plaintext http to connect. Please visit the GitHub blog for more information: https://github.blog/2021-08-23-npm-registry-deprecating-tls-1-0-tls-1-1/
+npm notice Beginning October 4, 2021, all connections to the npm registry - including for package installation - must use TLS 1.2 or higher. You are currently using plaintext http to connect. Please visit the GitHub blog for more information: https://github.blog/2021-08-23-npm-registry-deprecating-tls-1-0-tls-1-1/
+
+removed 1 package in 5s
+
+268 packages are looking for funding
+  run `npm fund` for details
+
+Created git commit.
+
+Success! Created web_pwa_furniture at C:\xampp\htdocs\web_pwa_furniture
+Inside that directory, you can run several commands:
+
+  npm start
+    Starts the development server.
+
+  npm run build
+    Bundles the app into static files for production.
+
+  npm test
+    Starts the test runner.
+
+  npm run eject
+    Removes this tool and copies build dependencies, configuration files
+    and scripts into the app directory. If you do this, you can’t go back!
+
+We suggest that you begin by typing:
+
+  cd web_pwa_furniture
+  npm start
+
+Happy hacking!
+M3FITRIA30 htdocs
+$ cd web_pwa_furniture
+M3FITRIA30 (master) web_pwa_furniture
+$ npm install
+npm notice Beginning October 4, 2021, all connections to the npm registry - including for package installation - must use TLS 1.2 or higher. You are currently using plaintext http to connect. Please visit the GitHub blog for more information: https://github.blog/2021-08-23-npm-registry-deprecating-tls-1-0-tls-1-1/
+npm notice Beginning October 4, 2021, all connections to the npm registry - including for package installation - must use TLS 1.2 or higher. You are currently using plaintext http to connect. Please visit the GitHub blog for more information: https://github.blog/2021-08-23-npm-registry-deprecating-tls-1-0-tls-1-1/
+
+up to date in 5s
+
+268 packages are looking for funding
+  run `npm fund` for details
+warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it
+M3FITRIA30 (master) web_pwa_furniture
+$
+M3FITRIA30 (master) web_pwa_furniture
+$ code .
+M3FITRIA30 (master) web_pwa_furniture
+$ code .
+M3FITRIA30 (master) web_pwa_furniture
+$
+
+M3FITRIA30 (master) web_pwa_furniture
+$
+M3FITRIA30 (master) web_pwa_furniture
+$ npm start
+
+> web_pwa_furniture@0.1.0 start
+> react-scripts start
+
+
+✘ node v22.14.0, and webpack v5.99.3 are not yet supported in the Community edition of Console Ninja.
+We are working hard on it for you https://tinyurl.com/3h9mtwra.
+
+Estimated release dates:
+  - Community users: around 6th July, 2025 (subject to team availability)
+  - PRO users:       priority access is available now
+
+(node:16928) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:16928) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view web_pwa_furniture in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://192.168.100.9:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
